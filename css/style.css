@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+.font4 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+header {
+    background: linear-gradient(to right, #7da5b1, #0c0c42);
+}
+
+.main_nav {
+    box-shadow: 2px 3px 5px 2px #ccc;
+}
+
+header .navbar-brand {
+    font-size: 27px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    padding: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #bdbff1;
+}
+
+.dropdown-item {
+    font-size: 20px;
+}
+
+.navbar-toggler-icon i {
+    color: #fff;
+}
+
+.banner .owl-carousel .owl-item img {
+    height: 540px;
+}
+
+.banner .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    left: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #ccc;
+    line-height: 50px;
+    outline: 0;
+}
+
+.banner .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    right: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #ccc;
+    line-height: 50px;
+    outline: 0;
+}
+
+
+/*.banner .owl-theme .owl-nav.disabled+.owl-dots {
+    position: absolute;
+    top: 38%;
+    right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+*/
+
+.banner .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #1380eb;
+}
+
+.about_sec {}
+
+.about_content {
+    box-shadow: 0px 6px 15px 2px #ccc;
+    padding: 20px;
+}
+
+.about_content h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about_content p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.latest_updates {
+    box-shadow: 0px 6px 15px 2px #ccc;
+    padding: 20px;
+}
+
+.latest_updates marquee {
+    color: red;
+}
+.latest_updates h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+}
+
+.our_service h2 {
+    text-align: center;
+}
+
+.service_box {
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 4px 1px 4px 0px #ccc;
+    height: 400px;
+}
+
+.service_box:hover {
+    background-color: #ccc;
+}
+
+.service_box .service_img {}
+
+.service_box .service_img img {}
+
+.service_box .service_content {
+    padding: 14px;
+    text-align: justify;
+}
+
+.service_box .service_content h3 {}
+
+.service_box .service_content p {}
+
+.our_service .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    left: -40px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #ccc;
+    line-height: 50px;
+    outline: 0;
+}
+
+.our_service .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    right: -40px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #ccc;
+    line-height: 50px;
+    outline: 0;
+}
+.contact_sec label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.sub_btn{
+    background: #dbd1d1;
+    border-radius: 28px;
+    padding: 10px 66px;
+    font-size: 20px;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+.sub_btn:hover{
+    background-color: transparent;
+}
+
+footer {
+    background-color: #242A56;
+    padding: 3rem;
+}
+
+.footer_content p {
+    color: #fff;
+    font-size: 17px;
+}
+
+.footer_content .social_icons ul {
+    display: flex;
+    justify-content: start;
+}
+
+.footer_content .social_icons ul li a {
+    padding: 0 2rem 0 0;
+}
+
+.footer_content .social_icons ul li a i {
+    color: #fff;
+}
+
+.company_menu_list ul li {
+    padding-bottom: 10px;
+}
+
+.company_menu_list ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.company_menu_list ul li a:hover {
+    color: pink;
+}
+
+.company_details ul li {
+    padding-bottom: 10px;
+}
+
+.company_details ul li i {
+    color: #fff;
+}
+
+.company_details ul li span {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.botton_line {
+    border-top: 1px solid #fff;
+}
+
+.copyright_sec p {
+    color: #fff;
+    font-size: 17px;
+}

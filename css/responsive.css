@@ -1,0 +1,8 @@
+@media (max-width: 1024px){
+
+}
+@media (max-width: 767px){
+  .service_box{
+  	height: auto;
+  }
+}
